@@ -21,7 +21,11 @@
 \usepackage{pxjahyper}
 \usepackage{framed}
 \usepackage[dvipdfmx]{pdfpages}
-\usepackage[backend=biber,style=ieee]{biblatex}
+\usepackage[backend=biber,citestyle=numeric,bibstyle=phys]{biblatex}
+\DeclareFieldFormat{labelnumberwidth}{[#1]\ }
+\AtEveryBibitem{
+	\clearfield{note}
+}
 \addbibresource{references.bib}
 \captionsetup{compatibility=false}
 

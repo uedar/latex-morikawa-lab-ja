@@ -10,6 +10,7 @@
                 "%DIR%:/workdir",
                 "ghcr.io/being24/latex-docker",
                 "latexmk",
+                "-f",
                 "/workdir/%DOCFILE_EXT%"
             ]
         },

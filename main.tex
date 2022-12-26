@@ -1,19 +1,28 @@
-\documentclass{classes/resume}
-
-\title{
-	\gt{title}\\
-}
-
-\author{
-	\gt{○○大学 ○○学科 ○○専攻 学籍番号 名前}\\
-}
-
-\date{}
+\documentclass{classes/report}
 
 \begin{document}
-\maketitle
 
-% ここに本文をかく
-% exampleフォルダを参考にしてください
+\subfile{sections/title}
+\newpage
+
+\tableofcontents
+\clearpage
+
+\subfile{sections/introduction}
+\newpage
+
+\subfile{sections/methodlogy}
+\newpage
+
+\subfile{sections/results}
+\newpage
+
+\subfile{sections/conclusion}
+\newpage
+
+\subfile{sections/references}
+\newpage
+
+\subfile{sections/acknowledgement}
 
 \end{document}

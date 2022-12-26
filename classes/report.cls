@@ -21,6 +21,9 @@
 \usepackage{pxjahyper}
 \usepackage{framed}
 \usepackage[dvipdfmx]{pdfpages}
+\usepackage{mhchem}
+\usepackage{braket}
+\usepackage{bm}
 \usepackage[backend=biber,citestyle=numeric,bibstyle=phys]{biblatex}
 \DeclareFieldFormat{labelnumberwidth}{[#1]\ }
 \AtEveryBibitem{

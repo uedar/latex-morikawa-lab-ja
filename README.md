@@ -1,4 +1,4 @@
-## Latex Template
+# Latex Template
 ## 必要な環境
 - vscode
   - https://code.visualstudio.com/download
